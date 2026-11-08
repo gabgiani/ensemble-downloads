@@ -1,11 +1,11 @@
 {
-  "version": "0.2.6",
+  "version": "0.3.0",
   "platform": "macos-arm64",
-  "built_at": "2026-11-07T20:13:19+00:00",
+  "built_at": "2026-11-08T22:30:09+00:00",
   "minimum_os": "13.0",
   "signed": true,
-  "artifact": "ensemble-server_0.2.6_macos-arm64.zip",
-  "bytes": 10121709,
-  "sha256": "eb2a852b88af6eb5a166204a075d3230350a7b738bce760dc3844001d3c68964",
-  "download_url": "https://github.com/gabgiani/ensemble-downloads/releases/download/v0.2.6/ensemble-server_0.2.6_macos-arm64.zip"
+  "artifact": "ensemble-server_0.3.0_macos-arm64.zip",
+  "bytes": 10163070,
+  "sha256": "7dac21dc208833da29c0a364193c79d9a08b21764848b9e0ff0e1cdfe7ab0fa6",
+  "download_url": "https://github.com/gabgiani/ensemble-downloads/releases/download/v0.3.0/ensemble-server_0.3.0_macos-arm64.zip"
 }
