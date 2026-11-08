@@ -1,0 +1,11 @@
+{
+  "version": "0.3.0",
+  "platform": "android-arm64",
+  "built_at": "2026-11-08T22:31:29+00:00",
+  "minimum_os": "10",
+  "signed": false,
+  "artifact": "ensemble-quest_0.3.0_arm64.apk",
+  "bytes": 77570498,
+  "sha256": "7b4f7e70a1785a505fa728f307fa54b82cc713ae9796a90c3ede1f3c510732b6",
+  "download_url": "https://github.com/gabgiani/ensemble-downloads/releases/download/android-v0.3.0/ensemble-quest_0.3.0_arm64.apk"
+}

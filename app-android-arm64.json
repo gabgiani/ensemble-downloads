@@ -1,0 +1,11 @@
+{
+  "version": "0.3.0",
+  "platform": "android-arm64",
+  "built_at": "2026-11-08T22:31:26+00:00",
+  "minimum_os": "10",
+  "signed": false,
+  "artifact": "ensemble-android_0.3.0_arm64.apk",
+  "bytes": 77570498,
+  "sha256": "ac98d9d5467c55c9e71188328df79dca26a665295e5c163f208db2044ab1c6ee",
+  "download_url": "https://github.com/gabgiani/ensemble-downloads/releases/download/android-v0.3.0/ensemble-android_0.3.0_arm64.apk"
+}
