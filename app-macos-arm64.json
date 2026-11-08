@@ -1,11 +1,11 @@
 {
-  "version": "0.2.6",
+  "version": "0.3.0",
   "platform": "macos-arm64",
-  "built_at": "2026-11-07T20:13:06+00:00",
+  "built_at": "2026-11-08T22:28:37+00:00",
   "minimum_os": "13.0",
   "signed": true,
-  "artifact": "ensemble_0.2.6_macos-arm64.zip",
-  "bytes": 23858426,
-  "sha256": "0c05b75a6ac482c9764d784c5f9bd2289b0a236a2f179d0c613079f508a598a3",
-  "download_url": "https://github.com/gabgiani/ensemble-downloads/releases/download/app-mac-v0.2.6/ensemble_0.2.6_macos-arm64.zip"
+  "artifact": "ensemble_0.3.0_macos-arm64.zip",
+  "bytes": 24294166,
+  "sha256": "d821ab72b12a6292fa0bf62864b0e401b3e9990c5afc38ef6e1ab57cd8c0585b",
+  "download_url": "https://github.com/gabgiani/ensemble-downloads/releases/download/app-mac-v0.3.0/ensemble_0.3.0_macos-arm64.zip"
 }
