@@ -1,11 +1,11 @@
 {
-  "version": "0.3.0",
+  "version": "0.4.0",
   "platform": "windows-x64",
-  "built_at": "2026-11-08T22:30:08+00:00",
+  "built_at": "2026-11-09T13:45:01+00:00",
   "minimum_os": "10.0",
   "signed": true,
-  "artifact": "ensemble-setup_0.3.0_x64.exe",
-  "bytes": 27858144,
-  "sha256": "d7132199d048a7c6a0db3bf1376031146bf1376104f7358be13474f46274755c",
-  "download_url": "https://github.com/gabgiani/ensemble-downloads/releases/download/v0.3.0/ensemble-setup_0.3.0_x64.exe"
+  "artifact": "ensemble-setup_0.4.0_x64.exe",
+  "bytes": 27930616,
+  "sha256": "126d04c992bcf8b0494e3a71d08b727d65676a7aa45584940c4a471506184820",
+  "download_url": "https://github.com/gabgiani/ensemble-downloads/releases/download/v0.4.0/ensemble-setup_0.4.0_x64.exe"
 }
