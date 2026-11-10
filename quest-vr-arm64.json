@@ -1,11 +1,11 @@
 {
-  "version": "0.4.0",
+  "version": "0.4.1",
   "platform": "android-arm64",
-  "built_at": "2026-11-09T13:55:56+00:00",
+  "built_at": "2026-11-10T06:13:10+00:00",
   "minimum_os": "10",
   "signed": false,
-  "artifact": "ensemble-vr_0.4.0_arm64.apk",
-  "bytes": 79274534,
-  "sha256": "73d28754f49f56eb0c409096e83a2858b4880f2d76105a9314925bc4ac324a89",
-  "download_url": "https://github.com/gabgiani/ensemble-downloads/releases/download/android-v0.4.0/ensemble-vr_0.4.0_arm64.apk"
+  "artifact": "ensemble-vr_0.4.1_arm64.apk",
+  "bytes": 80077350,
+  "sha256": "f275371a2922d2fae9315a0be26db949926db080e0b85f8773c836779d758ea2",
+  "download_url": "https://github.com/gabgiani/ensemble-downloads/releases/download/android-v0.4.1/ensemble-vr_0.4.1_arm64.apk"
 }
