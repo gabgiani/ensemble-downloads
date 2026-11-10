@@ -1,11 +1,11 @@
 {
-  "version": "0.4.1",
+  "version": "0.4.2",
   "platform": "android-arm64",
-  "built_at": "2026-11-10T06:13:06+00:00",
+  "built_at": "2026-11-10T12:33:22+00:00",
   "minimum_os": "10",
   "signed": false,
-  "artifact": "ensemble-quest_0.4.1_arm64.apk",
-  "bytes": 79245762,
-  "sha256": "975bd2ceede3724bea3bcde799542d739ee7b3cbe8fd75f41cf5167333b502b6",
-  "download_url": "https://github.com/gabgiani/ensemble-downloads/releases/download/android-v0.4.1/ensemble-quest_0.4.1_arm64.apk"
+  "artifact": "ensemble-quest_0.4.2_arm64.apk",
+  "bytes": 81011138,
+  "sha256": "4a1e7ce017683471690193a71c6ce1b39d00d4bc6c8cd497abd5fd9aad257804",
+  "download_url": "https://github.com/gabgiani/ensemble-downloads/releases/download/android-v0.4.2/ensemble-quest_0.4.2_arm64.apk"
 }
