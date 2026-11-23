@@ -30,6 +30,37 @@ Apps and installers for **Ensemble**, a workspace where a team puts the 3D model
 
 Each version stays available. Notes are only as detailed as we can stand behind: versions before 0.3.0 were published without a changelog.
 
+### 0.5.0 · 2026-11-23 · Control logic, cable and protection checks, three-phase loads, cabinet heat and electrical documentation
+- Control logic in industrial schematics: press buttons and watch coils pull their contacts in; a start-stop circuit with its seal-in contact stays on when released and drops out on stop; a contact follows the coil with its designator or the one you pick
+- Cables: write the length and section of a wire to get the current it carries, the voltage drop to each load, the smallest section that carries it, and a warning above 5 % or when a breaker does not protect the cable
+- Protections: breaker or fuse overload, thermal relay setting against the motor current, and motor starting current against the breaker's instant trip
+- Three-phase motors and loads sized at rated operation from power, cos φ and efficiency, with the current per phase, total kW and kVA and the phase unbalance
+- Heat in the cabinet from contactors, breakers, coils and power supplies, from ETIM data or estimated
+- A coil or lamp with only its voltage written is assumed at 3 W and says so
+- Electrical documentation as an editable document: an A3 sheet set with an ISO 7200 title block, a cover with the data IEC 60204-1 asks for (and a list of what is still missing), the schematic and each list (connections, cables, terminals, PLC I/O, cross-references, labels, device data, bill of materials); export it as a PDF. Each one stays linked to its schematic and you can have several
+- Split a document into pages, one document per page with its own sheet number, optionally pinned to the Showcase in order to present them
+- The Simulate tab is part of the schematic panel with its views as scrolling tabs, and the panel is wider
+- Cable length and section for all cables at once, one by one, or the smallest section that fits
+- The app opens where you left it: the workspaces you had open on this device, DAFONET or your own server, the one you were on, and its zoom
+- Server updated for the new schematic fields (contact coil, wire length and section, document data)
+
+_En español: Lógica de mando, cálculo de cables y protecciones, cargas trifásicas, calor del armario y documentación eléctrica_
+
+- Lógica de mando en esquemas industriales: pulsa botones y mira cómo las bobinas cierran sus contactos; un circuito de arranque y paro con su contacto de enclavamiento se mantiene al soltar y cae al parar; un contacto sigue a la bobina de su designador o a la que elijas
+- Cables: escribe el largo y la sección de un cable para obtener la corriente que lleva, la caída de tensión hasta cada carga, la sección mínima que lo aguanta y un aviso por encima de 5 % o cuando un interruptor no protege el cable
+- Protecciones: sobrecarga de interruptor o fusible, ajuste del relé térmico frente a la corriente del motor y corriente de arranque del motor frente al disparo instantáneo del interruptor
+- Motores y cargas trifásicas calculados en funcionamiento nominal a partir de la potencia, el cos φ y el rendimiento, con la corriente por fase, los kW y kVA totales y el desequilibrio entre fases
+- Calor en el armario de contactores, interruptores, bobinas y fuentes, con datos ETIM o estimado
+- Una bobina o lámpara con solo su tensión escrita se supone de 3 W y lo dice
+- Documentación eléctrica como documento editable: un juego de hojas A3 con cajetín ISO 7200, una portada con los datos que pide IEC 60204-1 (y la lista de lo que aún falta), el esquema y cada lista (conexiones, cables, bornes, E/S del PLC, referencias cruzadas, rótulos, datos de aparatos y lista de materiales); se exporta como PDF. Cada uno queda unido a su esquema y puedes tener varios
+- Separar un documento en páginas, un documento por página con su propio número de hoja, y si quieres fijarlas en orden en el Showcase para presentarlas
+- La pestaña Simulate es parte del panel del esquema, con sus vistas como pestañas que se corren, y el panel es más ancho
+- Largo y sección de los cables para todos a la vez, uno por uno, o la sección mínima que aguanta cada uno
+- La app abre donde la dejaste: los workspaces que tenías abiertos en este dispositivo, en DAFONET o en tu servidor, el que estabas viendo y su zoom
+- Servidor actualizado para los campos nuevos del esquema (bobina del contacto, largo y sección del cable, datos del documento)
+
+- Downloads: [Server and Windows](https://github.com/gabgiani/ensemble-downloads/releases/tag/v0.5.0), [Mac app](https://github.com/gabgiani/ensemble-downloads/releases/tag/app-mac-v0.5.0)
+
 ### 0.4.5 · 2026-11-23 · Circuit simulation fixes for industrial schematics
 - Sources drawn sideways, like a battery with its terminals left and right, are now simulated: the plus terminal is found by its name
 - Simulation warnings use the warning icon instead of an empty box, and no longer pile up on top of each other on the schematic
