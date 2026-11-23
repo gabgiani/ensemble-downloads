@@ -30,6 +30,21 @@ Apps and installers for **Ensemble**, a workspace where a team puts the 3D model
 
 Each version stays available. Notes are only as detailed as we can stand behind: versions before 0.3.0 were published without a changelog.
 
+### 0.4.5 · 2026-11-23 · Circuit simulation fixes for industrial schematics
+- Sources drawn sideways, like a battery with its terminals left and right, are now simulated: the plus terminal is found by its name
+- Simulation warnings use the warning icon instead of an empty box, and no longer pile up on top of each other on the schematic
+- The values you type in the Simulate tab have room to be read
+- Schematic simulation tab, industrial simulation and AI refinement of industrial schematics, as in 0.4.4
+
+_En español: Arreglos de la simulación de circuitos en esquemas industriales_
+
+- Las fuentes dibujadas de lado, como una batería con sus bornes a izquierda y derecha, ahora se simulan: el borne positivo se encuentra por su nombre
+- Los avisos de la simulación usan el icono de advertencia en lugar de un cuadro vacío, y ya no se amontonan sobre el esquema
+- Los valores que escribes en la pestaña Simulate tienen espacio para leerse
+- La pestaña de simulación del esquema, la simulación industrial y el refinado con IA de esquemas industriales, como en 0.4.4
+
+- Downloads: [Server and Windows](https://github.com/gabgiani/ensemble-downloads/releases/tag/v0.4.5), [Mac app](https://github.com/gabgiani/ensemble-downloads/releases/tag/app-mac-v0.4.5)
+
 ### 0.4.4 · 2026-11-23 · Hand-drawn sketch to schematic, industrial electrical design and circuit simulation
 - Sketch to schematic: draw a circuit by hand and the AI builds an electronic or an industrial electrical schematic with real parts, wired terminal to terminal, next to the sketch and linked to it by a connector you can break
 - Two kinds of schematic, each its own add-on: electronic (KiCad symbols, about 23,000, with board footprints) and industrial electrical (IEC/EN 60617 symbols, about 6,400, with ETIM 10.0 classification and technical data)
