@@ -30,6 +30,23 @@ Apps and installers for **Ensemble**, a workspace where a team puts the 3D model
 
 Each version stays available. Notes are only as detailed as we can stand behind: versions before 0.3.0 were published without a changelog.
 
+### 0.5.1 · 2026-11-24 · Page selector, split without repeats, title block fields and zone grid
+- Zone grid (letters and numbers around the frame, ISO 5457) on drawing sheets and on the schematic pages of the electrical documentation, to say where to look: C4. It can be turned off per document in Document settings
+- The page selector of a document appears above it when it is selected, at any zoom
+- Split into pages replaces the pages it made before instead of repeating them; pinning to the Showcase is up to you
+- All the title block fields, including project, approved by, status, language and document type, are edited in Document settings
+- Server updated to keep the zone grid setting of documents in DAFONET workspaces
+
+_En español: Selector de páginas, separar sin repetir, campos del cajetín y matriz de zonas_
+
+- Matriz de zonas (letras y números alrededor del marco, ISO 5457) en las hojas de dibujo y en las páginas del esquema de la documentación eléctrica, para indicar dónde mirar: C4. Se puede apagar por documento en Document settings
+- El selector de páginas de un documento aparece encima cuando está seleccionado, con cualquier zoom
+- Separar en páginas reemplaza las páginas que hizo antes en vez de repetirlas; fijarlas en el Showcase lo decides tú
+- Todos los campos del cajetín, incluidos proyecto, aprobó, estado, idioma y tipo de documento, se editan en Document settings
+- Servidor actualizado para conservar la matriz de zonas de los documentos en los workspaces de DAFONET
+
+- Downloads: [Server and Windows](https://github.com/gabgiani/ensemble-downloads/releases/tag/v0.5.1), [Mac app](https://github.com/gabgiani/ensemble-downloads/releases/tag/app-mac-v0.5.1)
+
 ### 0.5.0 · 2026-11-23 · Control logic, cable and protection checks, three-phase loads, cabinet heat and electrical documentation
 - Control logic in industrial schematics: press buttons and watch coils pull their contacts in; a start-stop circuit with its seal-in contact stays on when released and drops out on stop; a contact follows the coil with its designator or the one you pick
 - Cables: write the length and section of a wire to get the current it carries, the voltage drop to each load, the smallest section that carries it, and a warning above 5 % or when a breaker does not protect the cable
